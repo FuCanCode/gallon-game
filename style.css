@@ -5,8 +5,14 @@
 }
 
 body {
-  padding-left: 75px;
   padding-top: 75px;
+}
+
+.unit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .container {
@@ -20,18 +26,45 @@ body {
   justify-content: flex-end;
 }
 
-.upper-container-1 {
-  height: 3em;
+.water {
+  background-color: aqua;
 }
 
-.upper-water-1 {
-  background-color: aqua;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.upper-container-1 {
+  height: 3em;
 }
 
 .lower-container-1 {
   height: 5em;
 }
 
-.lower-water-1 {
-  background-color: aqua;
+.upper-container-2 {
+  height: 6em;
+}
+
+.lower-container-2 {
+  height: 4em;
+}
+
+.upper-container-3 {
+  height: 9em;
+}
+
+.lower-container-3 {
+  height: 7em;
+}
+
+.upper-container-4 {
+  height: 7em;
+}
+
+.lower-container-4 {
+  height: 5em;
 }
