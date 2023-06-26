@@ -16,18 +16,26 @@ body {
 }
 
 .container {
+  box-sizing: content-box;
   width: 100px;
   margin: 1em 0;
-  font-size: large;
-  border: 2px solid black;
+  border: 0.15em solid black;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .water {
   background-color: aqua;
+  width: 100px;
+}
+
+.water-text {
+  font-size: 0.806em;
+  text-align: center;
+  border-top: 1px dotted;
 }
 
 img {
@@ -39,6 +47,14 @@ img {
 
 .upper-container-1 {
   height: 3em;
+}
+
+.upper-water-1 {
+  height: 3em;
+  background: linear-gradient(to top, rgb(53, 65, 230), rgb(101, 146, 243));
+  background-size: 0 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .lower-container-1 {
