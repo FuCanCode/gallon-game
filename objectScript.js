@@ -6,8 +6,8 @@ const unit1 = {
   lowerMax: 5,
   upperLevel: 0,
   lowerLevel: 0,
-  upperLevelEL: document.querySelector(".upper-water-1"),
-  lowerLevelEL: document.querySelector(".lower-water-1"),
+  upperLevelEL: document.querySelector(".upper-container-1"),
+  lowerLevelEL: document.querySelector(".lower-container-1"),
 };
 
 const unit2 = {
@@ -15,8 +15,8 @@ const unit2 = {
   lowerMax: 4,
   upperLevel: 0,
   lowerLevel: 0,
-  upperLevelEL: document.querySelector(".upper-water-2"),
-  lowerLevelEL: document.querySelector(".lower-water-2"),
+  upperLevelEL: document.querySelector(".upper-container-2"),
+  lowerLevelEL: document.querySelector(".lower-container-2"),
 };
 
 const unit3 = {
@@ -24,8 +24,8 @@ const unit3 = {
   lowerMax: 7,
   upperLevel: 0,
   lowerLevel: 0,
-  upperLevelEL: document.querySelector(".upper-water-3"),
-  lowerLevelEL: document.querySelector(".lower-water-3"),
+  upperLevelEL: document.querySelector(".upper-container-3"),
+  lowerLevelEL: document.querySelector(".lower-container-3"),
 };
 
 const unit4 = {
@@ -33,8 +33,8 @@ const unit4 = {
   lowerMax: 5,
   upperLevel: 0,
   lowerLevel: 0,
-  upperLevelEL: document.querySelector(".upper-water-4"),
-  lowerLevelEL: document.querySelector(".lower-water-4"),
+  upperLevelEL: document.querySelector(".upper-container-4"),
+  lowerLevelEL: document.querySelector(".lower-container-4"),
 };
 
 // Functions

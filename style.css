@@ -6,6 +6,7 @@
 
 body {
   padding-top: 75px;
+  font-size: 1em;
 }
 
 .unit-container {
@@ -25,36 +26,19 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-}
-
-.water {
-  background-color: aqua;
-  width: 100px;
-}
-
-.water-text {
-  font-size: 0.806em;
-  text-align: center;
-  border-top: 1px dotted;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.upper-container-1 {
-  height: 3em;
-}
-
-.upper-water-1 {
-  height: 3em;
   background: linear-gradient(to top, rgb(53, 65, 230), rgb(101, 146, 243));
   background-size: 0 0;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+.water-text {
+  font-size: 2.4vh;
+  text-decoration: overline;
+}
+
+.upper-container-1 {
+  height: 3em;
 }
 
 .lower-container-1 {
@@ -83,4 +67,11 @@ img {
 
 .lower-container-4 {
   height: 5em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
