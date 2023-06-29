@@ -8,6 +8,8 @@ const unit1 = {
   lowerLevel: 0,
   upperLevelEL: document.querySelector(".upper-container-1"),
   lowerLevelEL: document.querySelector(".lower-container-1"),
+  upperTargetEl: document.querySelector(".upper-target-1"),
+  lowerTargetEl: document.querySelector(".lower-target-1"),
 };
 
 const unit2 = {
@@ -17,6 +19,8 @@ const unit2 = {
   lowerLevel: 0,
   upperLevelEL: document.querySelector(".upper-container-2"),
   lowerLevelEL: document.querySelector(".lower-container-2"),
+  upperTargetEl: document.querySelector(".upper-target-2"),
+  lowerTargetEl: document.querySelector(".lower-target-2"),
 };
 
 const unit3 = {
@@ -26,6 +30,8 @@ const unit3 = {
   lowerLevel: 0,
   upperLevelEL: document.querySelector(".upper-container-3"),
   lowerLevelEL: document.querySelector(".lower-container-3"),
+  upperTargetEl: document.querySelector(".upper-target-3"),
+  lowerTargetEl: document.querySelector(".lower-target-3"),
 };
 
 const unit4 = {
@@ -35,12 +41,20 @@ const unit4 = {
   lowerLevel: 0,
   upperLevelEL: document.querySelector(".upper-container-4"),
   lowerLevelEL: document.querySelector(".lower-container-4"),
+  upperTargetEl: document.querySelector(".upper-target-4"),
+  lowerTargetEl: document.querySelector(".lower-target-4"),
 };
 
 // Functions
 const setWater = function (obj) {
   obj.upperLevelEL.style.backgroundSize = `auto ${obj.upperLevel}em`;
   obj.lowerLevelEL.style.backgroundSize = `auto ${obj.lowerLevel}em`;
+  if (obj.upperLevel === Number(obj.upperTargetEl.textContent)) {
+    obj.upperTargetEl.style.backgroundColor = "rgb(89, 235, 126)";
+  } else obj.upperTargetEl.style.backgroundColor = "rgb(240, 103, 103)";
+  if (obj.lowerLevel === Number(obj.lowerTargetEl.textContent)) {
+    obj.lowerTargetEl.style.backgroundColor = "rgb(89, 235, 126)";
+  } else obj.lowerTargetEl.style.backgroundColor = "rgb(240, 103, 103)";
 };
 
 const switchWater = function (obj, direction) {

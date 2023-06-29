@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
   padding-top: 75px;
-  font-size: 1em;
 }
 
 .unit-container {
@@ -14,6 +14,17 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.unit {
+  width: 180px;
+  height: 650px;
+  border: 1px dotted blue;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -24,7 +35,7 @@ body {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   background: linear-gradient(to top, rgb(53, 65, 230), rgb(101, 146, 243));
   background-size: 0 0;
@@ -32,8 +43,25 @@ body {
   background-position: bottom;
 }
 
+.btn {
+  margin: 3px;
+  padding: 2px;
+}
+
+.target {
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  font-weight: 600;
+  background-color: rgb(240, 103, 103);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .water-text {
-  font-size: 2.4vh;
+  font-size: 0.87em;
   text-decoration: overline;
 }
 
